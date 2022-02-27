@@ -40,7 +40,7 @@ int main(){
 		cout<<"Do you want to add some comment? 0 for No and 1 for Yes.";
 		cin>>person[n].Opt;
 		if(person[n].Opt){
-			cout<<"Enter your comment: （Please do not include space use dash(_) to split the words";
+			cout<<"Enter your comment: (Please do not include space use dash(_) to split the words)";
 			cin>>person[n].Optional;
 		}
 		cout<<"Do you wish to add another person? 0 for No and 1 for Yes.";
